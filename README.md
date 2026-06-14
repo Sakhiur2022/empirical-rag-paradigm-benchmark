@@ -1,5 +1,5 @@
 # Benchmarking Database Paradigms for Retrieval-Augmented Generation: A Workload-Specific Performance Analysis
-**Authors:** A.M.A Sakhiur Rahman · Sadman Jawad Suborno  
+**Authors:** A.M.A Sakhiur Rahman • Sadman Jawad Suborno  
 **Affiliation:** North South University  
 **Course:** CSE498R Directed Research
 
@@ -101,7 +101,7 @@ rag-db-benchmark/
 git clone https://github.com/Sakhiur2022/empirical-rag-paradigm-benchmark
 .git && cd rag-db-benchmark && code .
 
-python -m venv empirical-rag-paradigm-benchmarkv
+python -m venv empirical-rag-paradigm-benchmark
 empirical-rag-paradigm-benchmark\Scripts\activate
 
 pip install -r requirements.txt
