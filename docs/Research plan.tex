@@ -1,0 +1,100 @@
+\documentclass{article}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{geometry}
+\geometry{top=1.5cm,left=2cm,bottom=2cm,right=2cm}
+\usepackage{enumitem}
+\usepackage{ragged2e}
+
+\title{\Large Benchmarking SQL, NoSQL, and Vector Databases for Retrieval-Augmented Generation: A Workload-Specific Performance Analysis}
+\author{A.M.A Sakhiur Rahman \\ ID: 2231507642 \and Sadman Jawad Suborno \\ ID: 2233397642}
+\date{June 13, 2026}
+
+\begin{document}
+
+\maketitle
+
+\section{Research Question}
+
+\subsection{Primary RQ}
+How do relational, document-oriented NoSQL, and purpose-built vector database paradigms differ in retrieval effectiveness and latency across distinct RAG workload types, specifically short-context factual queries, long-context multi-hop queries, and semantic similarity queries, when evaluated against a single domain-specific corpus?
+
+\subsection{Sub-questions}
+\begin{itemize}[leftmargin=*]
+\item SQ1: Which paradigm achieves the highest precision@10 and NDCG10 per workload type?
+\item SQ2: At what query complexity does each paradigm's retrieval latency diverge meaningfully?
+\item SQ3: Is there a paradigm that dominates across all three workload types, or do trade-offs consistently emerge?
+\end{itemize}
+
+\section{Methodology blueprint}
+
+\subsection{Research paradigm}
+Empirical benchmark study (quantitative, positivist).
+
+\begin{table}[h]
+\centering
+\caption{Systems under study}
+\begin{tabularx}{\linewidth}{@{}lXX@{}}
+\toprule
+Paradigm & System & Rationale \\
+\midrule
+Relational & PostgreSQL + pgvector extension (via Supabase) & Widely deployed; native vector support added without changing the relational model; represents the "SQL + vector bolt-on" pattern \\
+Document NoSQL & MongoDB Atlas (with Vector Search) & Dominant document store with integrated ANN search; represents schema-flexible + vector hybrid \\
+Purpose-built vector DB & Qdrant & Designed ground-up for vector workloads; HNSW indexing; represents the "vector-first" paradigm \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Corpus selection}
+ArXiv CS abstracts + full papers (technical, high semantic density, clear ground truth)
+
+\newpage
+
+\subsection{Workload taxonomy}
+\begin{table}[h]
+\centering
+\caption{Workload types in retrieval systems}
+\label{tab:workloads}
+\begin{tabularx}{\textwidth}{@{}lXXX@{}}
+\toprule
+Workload type & Definition & Example query & Primary retrieval signal \\
+\midrule
+W1: Short factual & Single-hop, lookup-style; answer in one chunk & ``What activation function does Transformer use?'' & Keyword + semantic match \\
+W2: Multi-hop reasoning & Answer requires combining 2+ chunks across documents & ``How do BERT's training objectives differ from GPT's?'' & Semantic + cross-document linking \\
+W3: Semantic similarity & Vague, conceptual queries; no single correct answer & ``Papers about efficient attention mechanisms'' & Pure embedding similarity \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Metrics}
+\begin{enumerate}[leftmargin=*]
+\item Primary (retrieval effectiveness):
+\begin{itemize}[leftmargin=*]
+\item Precision@10, Recall@10
+\item NDCG@10
+\item Mean Reciprocal Rank (MRR)
+\end{itemize}
+\item Secondary (operational):
+\begin{itemize}[leftmargin=*]
+\item Query latency (p50, p95, p99 in ms)
+\item Indexing time for the full corpus
+\item Memory footprint at rest
+\end{itemize}
+\end{enumerate}
+
+\subsection{Embedding model}
+Fix a single embedding model across all three DBs (e.g., text-embedding-3-smal, text-embedding-3-small from OpenAI, or all-MiniLM-L6-v2 locally) by benchmarking the best one.
+
+\subsection{Experimental controls}
+\begin{itemize}[leftmargin=*]
+\item Same hardware for all three systems
+\item Same chunk size and overlap strategy
+\item Same embedding model and dimensionality
+\item Each query run 5× and averaged to reduce variance
+\item Report standard deviation alongside means
+\end{itemize}
+
+\subsection{Analysis approach}
+Use paired statistical tests (Wilcoxon signed-rank test) to compare NDCG@10 across paradigms within each workload type
+
+\end{document}
