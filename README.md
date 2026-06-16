@@ -101,8 +101,8 @@ empirical-rag-paradigm-benchmark/
 ```bash
 git clone https://github.com/Sakhiur2022/empirical-rag-paradigm-benchmark.git && cd empirical-rag-paradigm-benchmark && code .
 
-python -m venv empirical-rag-paradigm-benchmark
-empirical-rag-paradigm-benchmark\Scripts\activate
+python -m venv benchmarking-research
+benchmarking-research\Scripts\activate
 
 pip install -r requirements.txt
 cp .env.example .env             # Fill in connection strings and API keys
