@@ -1,4 +1,4 @@
-# Benchmarking Database Paradigms for Retrieval-Augmented Generation: A Workload-Specific Performance Analysis
+# Empirical Benchmarking of Database Paradigms for RAG Retrieval
 
 **Authors:** A.M.A Sakhiur Rahman • Sadman Jawad Suborno  
 **Affiliation:** North South University  
@@ -17,14 +17,6 @@ This repository contains the full experimental codebase for our benchmark study 
 | Purpose-built vector DB           | Qdrant                      |
 
 The central novelty is **workload-specific characterization**: rather than reporting aggregate performance, we profile each system across three distinct RAG workload types and derive a per-paradigm trade-off signature.
-
----
-
-## Research Question
-
-> How do relational, document-oriented NoSQL, and purpose-built vector database paradigms differ in retrieval effectiveness and latency across distinct RAG workload types — short-context factual queries (W1), multi-hop reasoning queries (W2), and semantic similarity queries (W3) — when evaluated against a single domain-specific corpus?
-
----
 
 ## Workload Taxonomy
 
