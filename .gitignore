@@ -219,3 +219,6 @@ __marimo__/
 
 #env
 benchmarking-research
+
+#ignore data folder as it has already been uploaded on huggingface
+data
