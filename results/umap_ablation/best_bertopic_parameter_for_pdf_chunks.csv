@@ -1,0 +1,11 @@
+category,n_docs,min_cluster_size,umap_n_neighbors,umap_n_components,min_samples,n_topics,outlier_pct,notes
+cs.AI,2060,50,10,5,5,17,19.0,"Best balance"
+cs.LG,1937,50,10,5,5,15,26.6,"Good"
+cs.CV,1250,30,10,5,5,15,27.4,"Good"
+cs.CL,1363,30,10,5,5,19,22.0,"Strong"
+cs.IR,1371,30,10,5,5,17,22.3,"Good"
+cs.SE,1956,30,10,5,5,22,24.9,"Very good"
+cs.DB,1768,30,10,5,5,23,23.1,"Very good"
+cs.NE,1668,30,10,5,5,22,24.3,"Good"
+cs.DC,1826,30,10,5,5,19,18.7,"Good"
+cs.CR,1517,30,10,5,5,16,25.5,"Good"

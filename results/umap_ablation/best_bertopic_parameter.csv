@@ -1,11 +1,11 @@
-category,n_docs,min_cluster_size,umap_n_neighbors,umap_n_components,min_samples,n_topics_approx,outlier_pct_approx,notes
-cs.AI,7369,50,10,5,5,36,28.3,"Best balance for cs.AI"
-cs.LG,10746,80,10,5,5,30,17.9,"Strong choice"
-cs.CV,14163,80,10,5,5,55,26.7,"Good"
-cs.CL,12418,80,10,5,5,40,24.7,"Good"
-cs.IR,3076,30,15,5,10,13,17.2,"Acceptable"
-cs.SE,2281,50,10,5,5,13,13.5,"Good"
-cs.DB,1532,30,10,5,10,18,26.0,"Good"
-cs.NE,1501,30,30,10,5,10,14.9,"Small category"
-cs.DC,1517,30,10,5,5,11,19.8,"Small category"
-cs.CR,1523,30,10,5,5,8,4.4,"Small category"
+category,n_docs,min_cluster_size,umap_n_neighbors,umap_n_components,min_samples,n_topics,outlier_pct,notes
+cs.AI,7369,50,10,5,5,36,28.3,Best balance for cs.AI
+cs.LG,10746,80,10,5,5,30,17.9,Strong choice
+cs.CV,14163,80,10,5,5,55,26.7,Good
+cs.CL,12418,80,10,5,5,40,24.7,Good
+cs.IR,3076,30,15,5,10,13,17.2,Acceptable
+cs.SE,2281,50,10,5,5,13,13.5,Good
+cs.DB,1532,30,10,5,10,18,26,Good
+cs.NE,1501,30,30,10,5,10,14.9,Small category
+cs.DC,1517,30,10,5,5,11,19.8,Small category
+cs.CR,1523,30,10,5,5,8,4.4,Small category
