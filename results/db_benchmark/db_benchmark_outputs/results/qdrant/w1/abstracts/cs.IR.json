@@ -1,0 +1,17 @@
+{
+  "database": "qdrant",
+  "workload": "w1",
+  "content_type": "abstracts",
+  "category": "cs.IR",
+  "model": "intfloat/e5-base-v2",
+  "n_queries": 50,
+  "n_chunks_ingested": 3076,
+  "mrr": 0.45833333333333326,
+  "recall@1": 0.38,
+  "recall@5": 0.56,
+  "ndcg@5": 0.48432510159004283,
+  "ndcg@10": 0.48432510159004283,
+  "mean_embedding_time_sec": 0.0665142380000907,
+  "mean_db_query_time_sec": 0.012395427999581442,
+  "mean_total_time_sec": 0.07890966599967214
+}

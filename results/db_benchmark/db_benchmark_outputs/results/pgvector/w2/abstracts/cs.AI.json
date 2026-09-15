@@ -1,0 +1,17 @@
+{
+  "database": "pgvector",
+  "workload": "w2",
+  "content_type": "abstracts",
+  "category": "cs.AI",
+  "model": "text-embedding-3-small",
+  "n_queries": 50,
+  "n_chunks_ingested": 7369,
+  "mrr": 0.5411904761904762,
+  "recall@1": 0.25,
+  "recall@5": 0.38,
+  "ndcg@5": 0.39497149253288427,
+  "ndcg@10": 0.411663966029726,
+  "mean_embedding_time_sec": 0.0705379200000607,
+  "mean_db_query_time_sec": 0.31000968999993345,
+  "mean_total_time_sec": 0.38054760999999415
+}

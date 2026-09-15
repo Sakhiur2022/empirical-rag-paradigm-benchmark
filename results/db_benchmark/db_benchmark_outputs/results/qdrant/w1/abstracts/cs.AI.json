@@ -1,0 +1,17 @@
+{
+  "database": "qdrant",
+  "workload": "w1",
+  "content_type": "abstracts",
+  "category": "cs.AI",
+  "model": "intfloat/e5-base-v2",
+  "n_queries": 50,
+  "n_chunks_ingested": 7369,
+  "mrr": 0.6137222222222222,
+  "recall@1": 0.56,
+  "recall@5": 0.68,
+  "ndcg@5": 0.6268249675918753,
+  "ndcg@10": 0.6391548650408696,
+  "mean_embedding_time_sec": 0.08545949799998198,
+  "mean_db_query_time_sec": 0.015233468000369612,
+  "mean_total_time_sec": 0.10069296600035159
+}

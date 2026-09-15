@@ -1,0 +1,17 @@
+{
+  "database": "pgvector",
+  "workload": "w1",
+  "content_type": "abstracts",
+  "category": "cs.IR",
+  "model": "intfloat/e5-base-v2",
+  "n_queries": 50,
+  "n_chunks_ingested": 3076,
+  "mrr": 0.345,
+  "recall@1": 0.3,
+  "recall@5": 0.4,
+  "ndcg@5": 0.3590879114471845,
+  "ndcg@10": 0.3590879114471845,
+  "mean_embedding_time_sec": 0.06675041600021359,
+  "mean_db_query_time_sec": 0.07373651600035373,
+  "mean_total_time_sec": 0.14048693200056733
+}

@@ -1,0 +1,17 @@
+{
+  "database": "pgvector",
+  "workload": "w2",
+  "content_type": "pdf_chunks",
+  "category": "cs.IR",
+  "model": "text-embedding-3-small",
+  "n_queries": 50,
+  "n_chunks_ingested": 1371,
+  "mrr": 0.12766666666666668,
+  "recall@1": 0.03,
+  "recall@5": 0.12,
+  "ndcg@5": 0.09285098546505054,
+  "ndcg@10": 0.10485156788886452,
+  "mean_embedding_time_sec": 0.029700198000064123,
+  "mean_db_query_time_sec": 0.08288252800019108,
+  "mean_total_time_sec": 0.11258272600025525
+}

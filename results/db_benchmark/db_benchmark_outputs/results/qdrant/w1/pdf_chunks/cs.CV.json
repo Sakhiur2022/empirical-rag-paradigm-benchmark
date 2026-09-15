@@ -1,0 +1,17 @@
+{
+  "database": "qdrant",
+  "workload": "w1",
+  "content_type": "pdf_chunks",
+  "category": "cs.CV",
+  "model": "intfloat/e5-base-v2",
+  "n_queries": 50,
+  "n_chunks_ingested": 1250,
+  "mrr": 0.6965,
+  "recall@1": 0.56,
+  "recall@5": 0.86,
+  "ndcg@5": 0.7365416019304115,
+  "ndcg@10": 0.742850899466126,
+  "mean_embedding_time_sec": 0.07902387399924919,
+  "mean_db_query_time_sec": 0.011928192000341368,
+  "mean_total_time_sec": 0.09095206599959056
+}

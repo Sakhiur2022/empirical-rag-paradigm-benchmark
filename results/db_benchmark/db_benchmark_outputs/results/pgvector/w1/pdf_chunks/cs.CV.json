@@ -1,0 +1,17 @@
+{
+  "database": "pgvector",
+  "workload": "w1",
+  "content_type": "pdf_chunks",
+  "category": "cs.CV",
+  "model": "intfloat/e5-base-v2",
+  "n_queries": 50,
+  "n_chunks_ingested": 1250,
+  "mrr": 0.6348333333333332,
+  "recall@1": 0.48,
+  "recall@5": 0.82,
+  "ndcg@5": 0.6777737281633085,
+  "ndcg@10": 0.6912071694411835,
+  "mean_embedding_time_sec": 0.08260379399973317,
+  "mean_db_query_time_sec": 0.05321762799998396,
+  "mean_total_time_sec": 0.13582142199971714
+}

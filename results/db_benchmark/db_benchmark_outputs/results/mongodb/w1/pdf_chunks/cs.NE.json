@@ -1,0 +1,17 @@
+{
+  "database": "mongodb",
+  "workload": "w1",
+  "content_type": "pdf_chunks",
+  "category": "cs.NE",
+  "model": "intfloat/e5-base-v2",
+  "n_queries": 50,
+  "n_chunks_ingested": 1668,
+  "mrr": 0.5901904761904762,
+  "recall@1": 0.46,
+  "recall@5": 0.74,
+  "ndcg@5": 0.6211500691819181,
+  "ndcg@10": 0.6420650233329056,
+  "mean_embedding_time_sec": 0.07534540199907497,
+  "mean_db_query_time_sec": 0.005905833999568131,
+  "mean_total_time_sec": 0.08125123599864309
+}

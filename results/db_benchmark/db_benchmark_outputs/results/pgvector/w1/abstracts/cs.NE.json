@@ -1,0 +1,17 @@
+{
+  "database": "pgvector",
+  "workload": "w1",
+  "content_type": "abstracts",
+  "category": "cs.NE",
+  "model": "intfloat/e5-base-v2",
+  "n_queries": 50,
+  "n_chunks_ingested": 1501,
+  "mrr": 0.5616666666666666,
+  "recall@1": 0.5,
+  "recall@5": 0.64,
+  "ndcg@5": 0.5817065065186137,
+  "ndcg@10": 0.5817065065186137,
+  "mean_embedding_time_sec": 0.07242322200007038,
+  "mean_db_query_time_sec": 0.10072120400007406,
+  "mean_total_time_sec": 0.17314442600014446
+}

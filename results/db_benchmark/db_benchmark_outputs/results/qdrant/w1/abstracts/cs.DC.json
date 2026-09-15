@@ -1,0 +1,17 @@
+{
+  "database": "qdrant",
+  "workload": "w1",
+  "content_type": "abstracts",
+  "category": "cs.DC",
+  "model": "intfloat/e5-base-v2",
+  "n_queries": 50,
+  "n_chunks_ingested": 1517,
+  "mrr": 0.6823333333333333,
+  "recall@1": 0.62,
+  "recall@5": 0.76,
+  "ndcg@5": 0.6990879114471845,
+  "ndcg@10": 0.7106505044999,
+  "mean_embedding_time_sec": 0.06607723200024339,
+  "mean_db_query_time_sec": 0.011388920000026701,
+  "mean_total_time_sec": 0.07746615200027009
+}

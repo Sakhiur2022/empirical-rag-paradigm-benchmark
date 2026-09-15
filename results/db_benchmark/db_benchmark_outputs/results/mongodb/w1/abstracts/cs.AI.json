@@ -1,0 +1,17 @@
+{
+  "database": "mongodb",
+  "workload": "w1",
+  "content_type": "abstracts",
+  "category": "cs.AI",
+  "model": "intfloat/e5-base-v2",
+  "n_queries": 50,
+  "n_chunks_ingested": 7369,
+  "mrr": 0.614,
+  "recall@1": 0.56,
+  "recall@5": 0.68,
+  "ndcg@5": 0.6268249675918753,
+  "ndcg@10": 0.6394435626633045,
+  "mean_embedding_time_sec": 0.0706835099995078,
+  "mean_db_query_time_sec": 0.009870991999778199,
+  "mean_total_time_sec": 0.080554501999286
+}

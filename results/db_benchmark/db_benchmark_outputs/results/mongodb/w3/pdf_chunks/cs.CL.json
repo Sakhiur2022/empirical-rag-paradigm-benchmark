@@ -1,0 +1,17 @@
+{
+  "database": "mongodb",
+  "workload": "w3",
+  "content_type": "pdf_chunks",
+  "category": "cs.CL",
+  "model": "text-embedding-3-large",
+  "n_queries": 49,
+  "n_chunks_ingested": 1263,
+  "mrr": 0.28174603174603174,
+  "recall@1": 0.1836734693877551,
+  "recall@5": 0.42857142857142855,
+  "ndcg@5": 0.2999319396379739,
+  "ndcg@10": 0.35446583256013636,
+  "mean_embedding_time_sec": 0.03845043061226867,
+  "mean_db_query_time_sec": 0.012123338775400415,
+  "mean_total_time_sec": 0.05057376938766908
+}

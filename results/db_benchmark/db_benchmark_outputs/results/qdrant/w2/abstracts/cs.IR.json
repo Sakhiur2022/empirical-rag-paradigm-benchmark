@@ -1,0 +1,17 @@
+{
+  "database": "qdrant",
+  "workload": "w2",
+  "content_type": "abstracts",
+  "category": "cs.IR",
+  "model": "text-embedding-3-small",
+  "n_queries": 50,
+  "n_chunks_ingested": 3076,
+  "mrr": 0.5781666666666666,
+  "recall@1": 0.27,
+  "recall@5": 0.41,
+  "ndcg@5": 0.4274525029329611,
+  "ndcg@10": 0.4557494248374383,
+  "mean_embedding_time_sec": 0.03820614399999613,
+  "mean_db_query_time_sec": 0.02049634800045169,
+  "mean_total_time_sec": 0.05870249200044782
+}

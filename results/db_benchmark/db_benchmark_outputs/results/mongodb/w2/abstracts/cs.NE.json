@@ -1,0 +1,17 @@
+{
+  "database": "mongodb",
+  "workload": "w2",
+  "content_type": "abstracts",
+  "category": "cs.NE",
+  "model": "text-embedding-3-small",
+  "n_queries": 50,
+  "n_chunks_ingested": 1501,
+  "mrr": 0.6809999999999999,
+  "recall@1": 0.32,
+  "recall@5": 0.48,
+  "ndcg@5": 0.5029484515619891,
+  "ndcg@10": 0.5195976835067598,
+  "mean_embedding_time_sec": 0.031128663999988936,
+  "mean_db_query_time_sec": 0.020176935999770648,
+  "mean_total_time_sec": 0.05130559999975958
+}

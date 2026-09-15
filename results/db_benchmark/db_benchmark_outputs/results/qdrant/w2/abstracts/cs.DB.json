@@ -1,0 +1,17 @@
+{
+  "database": "qdrant",
+  "workload": "w2",
+  "content_type": "abstracts",
+  "category": "cs.DB",
+  "model": "text-embedding-3-small",
+  "n_queries": 50,
+  "n_chunks_ingested": 1532,
+  "mrr": 0.8786666666666667,
+  "recall@1": 0.41,
+  "recall@5": 0.71,
+  "ndcg@5": 0.7141432193963279,
+  "ndcg@10": 0.7409401434993509,
+  "mean_embedding_time_sec": 0.0539836560000549,
+  "mean_db_query_time_sec": 0.01979458399975556,
+  "mean_total_time_sec": 0.07377823999981045
+}

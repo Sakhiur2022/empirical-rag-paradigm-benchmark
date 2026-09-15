@@ -1,0 +1,17 @@
+{
+  "database": "qdrant",
+  "workload": "w3",
+  "content_type": "pdf_chunks",
+  "category": "cs.IR",
+  "model": "text-embedding-3-large",
+  "n_queries": 46,
+  "n_chunks_ingested": 1271,
+  "mrr": 0.21155106970324364,
+  "recall@1": 0.10869565217391304,
+  "recall@5": 0.30434782608695654,
+  "ndcg@5": 0.21544721351131244,
+  "ndcg@10": 0.27864371132221527,
+  "mean_embedding_time_sec": 0.04081382173915145,
+  "mean_db_query_time_sec": 0.018425047825313293,
+  "mean_total_time_sec": 0.05923886956446475
+}

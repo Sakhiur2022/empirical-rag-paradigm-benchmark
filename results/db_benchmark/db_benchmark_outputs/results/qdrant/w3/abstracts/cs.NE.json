@@ -1,0 +1,17 @@
+{
+  "database": "qdrant",
+  "workload": "w3",
+  "content_type": "abstracts",
+  "category": "cs.NE",
+  "model": "text-embedding-3-large",
+  "n_queries": 50,
+  "n_chunks_ingested": 1501,
+  "mrr": 0.8045238095238095,
+  "recall@1": 0.74,
+  "recall@5": 0.9,
+  "ndcg@5": 0.8263149737701202,
+  "ndcg@10": 0.8329816404367869,
+  "mean_embedding_time_sec": 0.03842013400004362,
+  "mean_db_query_time_sec": 0.02448485000015353,
+  "mean_total_time_sec": 0.06290498400019714
+}
