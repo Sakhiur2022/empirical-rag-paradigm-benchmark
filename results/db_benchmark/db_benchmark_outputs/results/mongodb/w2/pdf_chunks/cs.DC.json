@@ -11,7 +11,7 @@
   "recall@5": 0.15,
   "ndcg@5": 0.14284750509785926,
   "ndcg@10": 0.16318825097822143,
-  "mean_embedding_time_sec": 0.027371821999986418,
-  "mean_db_query_time_sec": 0.007005448000272736,
-  "mean_total_time_sec": 0.034377270000259155
+  "mean_embedding_time_sec": 0.015104304000005866,
+  "mean_db_query_time_sec": 0.006384977999960029,
+  "mean_total_time_sec": 0.021489281999965897
 }

@@ -4,14 +4,14 @@
   "content_type": "pdf_chunks",
   "category": "cs.AI",
   "model": "text-embedding-3-small",
-  "n_queries": 50,
+  "n_queries": 100,
   "n_chunks_ingested": 2060,
-  "mrr": 0.48304761904761906,
+  "mrr": 0.4830476190476191,
   "recall@1": 0.17,
   "recall@5": 0.4,
   "ndcg@5": 0.35508828397112113,
   "ndcg@10": 0.4000162984672708,
-  "mean_embedding_time_sec": 0.02914569000000484,
-  "mean_db_query_time_sec": 0.03484992599958787,
-  "mean_total_time_sec": 0.0639956159995927
+  "mean_embedding_time_sec": 0.009517429999996243,
+  "mean_db_query_time_sec": 0.025198159999918063,
+  "mean_total_time_sec": 0.0347155899999143
 }

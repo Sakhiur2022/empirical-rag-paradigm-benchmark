@@ -9,9 +9,9 @@
   "mrr": 0.7565,
   "recall@1": 0.36,
   "recall@5": 0.57,
-  "ndcg@5": 0.5798891916481229,
-  "ndcg@10": 0.5999926782959624,
-  "mean_embedding_time_sec": 0.033774062000011325,
-  "mean_db_query_time_sec": 0.01945906399952946,
-  "mean_total_time_sec": 0.05323312599954079
+  "ndcg@5": 0.579351783452057,
+  "ndcg@10": 0.5994552700998965,
+  "mean_embedding_time_sec": 0.019551552000011727,
+  "mean_db_query_time_sec": 0.014223101999996289,
+  "mean_total_time_sec": 0.03377465400000802
 }

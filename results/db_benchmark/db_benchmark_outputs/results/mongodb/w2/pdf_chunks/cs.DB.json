@@ -6,12 +6,12 @@
   "model": "text-embedding-3-small",
   "n_queries": 50,
   "n_chunks_ingested": 1768,
-  "mrr": 0.2849047619047619,
+  "mrr": 0.27923809523809523,
   "recall@1": 0.08,
-  "recall@5": 0.27,
-  "ndcg@5": 0.214623674170778,
-  "ndcg@10": 0.24353584997085798,
-  "mean_embedding_time_sec": 0.030426062000042293,
-  "mean_db_query_time_sec": 0.0064598320001096,
-  "mean_total_time_sec": 0.03688589400015188
+  "recall@5": 0.25,
+  "ndcg@5": 0.20428565618380343,
+  "ndcg@10": 0.2372854799356531,
+  "mean_embedding_time_sec": 0.015321231999996599,
+  "mean_db_query_time_sec": 0.0073222039999836855,
+  "mean_total_time_sec": 0.02264343599998029
 }

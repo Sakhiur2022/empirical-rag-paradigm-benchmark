@@ -7,11 +7,11 @@
   "n_queries": 50,
   "n_chunks_ingested": 1523,
   "mrr": 0.895,
-  "recall@1": 0.86,
-  "recall@5": 0.94,
-  "ndcg@5": 0.9064693163757553,
-  "ndcg@10": 0.9064693163757553,
-  "mean_embedding_time_sec": 0.04169095399993239,
-  "mean_db_query_time_sec": 0.02022313999987091,
-  "mean_total_time_sec": 0.0619140939998033
+  "recall@1": 0.84,
+  "recall@5": 0.96,
+  "ndcg@5": 0.9117065065186136,
+  "ndcg@10": 0.9117065065186136,
+  "mean_embedding_time_sec": 0.02899220200000855,
+  "mean_db_query_time_sec": 0.06800999000002776,
+  "mean_total_time_sec": 0.09700219200003629
 }

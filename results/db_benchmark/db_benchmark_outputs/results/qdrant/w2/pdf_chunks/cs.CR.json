@@ -8,10 +8,10 @@
   "n_chunks_ingested": 1517,
   "mrr": 0.2970238095238095,
   "recall@1": 0.11,
-  "recall@5": 0.23,
-  "ndcg@5": 0.21577128895863265,
-  "ndcg@10": 0.24406821086310998,
-  "mean_embedding_time_sec": 0.02990903800004162,
-  "mean_db_query_time_sec": 0.018935382001072868,
-  "mean_total_time_sec": 0.0488444200011145
+  "recall@5": 0.22,
+  "ndcg@5": 0.21102733470324672,
+  "ndcg@10": 0.24341190455949377,
+  "mean_embedding_time_sec": 0.01566267800000787,
+  "mean_db_query_time_sec": 0.01525770599999305,
+  "mean_total_time_sec": 0.03092038400000092
 }

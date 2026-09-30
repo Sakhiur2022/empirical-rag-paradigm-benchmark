@@ -6,12 +6,12 @@
   "model": "intfloat/e5-base-v2",
   "n_queries": 50,
   "n_chunks_ingested": 1523,
-  "mrr": 0.5780000000000001,
+  "mrr": 0.5913333333333334,
   "recall@1": 0.54,
-  "recall@5": 0.66,
-  "ndcg@5": 0.5953197696837464,
-  "ndcg@10": 0.602443913425907,
-  "mean_embedding_time_sec": 0.06286905399996613,
-  "mean_db_query_time_sec": 0.06868214399983116,
-  "mean_total_time_sec": 0.1315511979997973
+  "recall@5": 0.68,
+  "ndcg@5": 0.6079383647551757,
+  "ndcg@10": 0.6221866522394965,
+  "mean_embedding_time_sec": 0.0641528579999931,
+  "mean_db_query_time_sec": 0.07705482000001211,
+  "mean_total_time_sec": 0.14120767800000522
 }
